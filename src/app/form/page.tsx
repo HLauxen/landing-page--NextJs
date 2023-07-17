@@ -46,7 +46,7 @@ export default function Form() {
         setDisplayButton(true);
         
         try {
-            await axios.post('api/users', {
+            await axios.post('api/users/post', {
                 name: data.name,
                 email: data.email,
                 
