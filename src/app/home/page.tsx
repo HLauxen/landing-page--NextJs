@@ -75,7 +75,7 @@ export default function Home() {
 
             <div /* ref={ref} */ className={styles.about}>
                 <div className={styles.about__details}>
-                    <h1>Quem é Nome Teste?</h1>
+                    <h1>Quem somos nós?</h1>
                     <p>Somos um time especializado em criação de Landing Page, para ajudar a sua empresa a vender mais, proporcionando campanhas mais avançadas, além de sugestões e dicas que visam seu sucesso!</p>
                     <button  className={classNames({
                         [styles.buttonDisabled] : true,
