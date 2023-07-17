@@ -28,6 +28,7 @@
 }
 
 .description .title {
+  padding-top: 80px;
   padding-bottom: 30px;
   font-size: 25px;
 }
@@ -39,6 +40,39 @@
   gap: 20px;
 }
 
+.buttonDisabled {
+  border: 1px solid #0bd5f8;
+  background-color: transparent;
+  color: #0bd5f8;
+  border-radius: 6px;
+  width:100%;
+  height: 36px;
+  transition: 0.5s;
+
+}
+  .buttonDisabled:hover {
+      border: 1px solid #0bd5f8;
+      background-color: #0bd5f8;
+      box-shadow: 0 0 8px #0bd5f8;
+      color: black;
+      border-radius: 6px;
+      width:100%;
+      height: 36px;
+  }
+.link__logo {
+  display: flex;
+  
+}
+.logo {
+  width: 50%;
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+.logo:hover {
+  color: rgb(136, 136, 136);
+}
+
 .link {
   text-decoration: none;
   transition: all 0.2s;
@@ -47,4 +81,18 @@
 }
 .link:hover {
   transform: scale(1.1)
+}
+
+
+@media (max-width: 500px) {
+  .description {
+    padding-top: 150px;
+  }
+  .description .name {
+    font-size: 29px;
+  }
+
+  .description .title {
+    font-size: 20px;
+  }
 }
