@@ -53,7 +53,7 @@ export default function Home() {
                 
             <div  ref={ref} className={styles.description}>
                 <div className={styles.description__details}>
-                    <h1>Tenha um time de marketing atuando no crescimento do seu negócio</h1>
+                    <h1>Tenha uma Landing Page profissional atuando no crescimento do seu negócio</h1>
                     {/* <a href="/">Return</a> */}
                 </div>
                 <button className={classNames({
